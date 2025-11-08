@@ -428,7 +428,7 @@ label {
     color: white;
 }
 
-/* footer {
+footer {
     width: 100%;
     height: 5%;
     background-color: black;
@@ -444,7 +444,7 @@ footer p {
     padding-left: 10em;
     padding-top: 1em;
 
-} */
+}
 
 
 @media (max-width:768px) {

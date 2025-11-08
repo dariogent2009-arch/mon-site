@@ -256,7 +256,7 @@ a:hover {
     color: black;
     transform: scale(1.05)
 }
-/* 
+
 footer {
     width: 100%;
     height: 5%;
@@ -272,7 +272,7 @@ footer p {
     font-size: 10px;
     font-family: "Montserrat Thin";
     text-align: center;
-} */
+}
 
 @media (max-width:768px) {
     * {
@@ -391,6 +391,8 @@ footer p {
     .sous-menu li a:hover {
         background-color: rgb(133, 181, 83);
         color: white;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .menu.open .sous-menu {

@@ -124,6 +124,9 @@ a:hover {
 .sous-menu li a:hover {
     color: white;
     background-color: rgb(133, 181, 83);
+    margin-left: 2em;
+    margin-right: 2em;
+    width: calc(100% - 4em);
 }
 
 .menu-item:hover .sous-menu {
@@ -179,7 +182,7 @@ a:hover {
 .items:hover h1{
     color:rgb(133, 181, 83)
 }
-/* footer{
+footer{
     grid-area: ft;
     width: 100%;
     height: 30px;
@@ -194,7 +197,7 @@ footer p{
     font-size: 12px;
     margin: auto;
 
-} */
+}
 
 
 
@@ -257,7 +260,7 @@ footer p{
         width: 100%;
         background-color: rgb(50, 68, 32);
         margin: 0;
-        padding: 0;
+        padding: 0 20px;
     }
 
     .sous-menu li {
@@ -278,6 +281,8 @@ footer p{
     .sous-menu li a:hover {
         background-color: rgb(133, 181, 83);
         color: white;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
 
