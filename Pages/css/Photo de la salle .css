@@ -34,6 +34,7 @@ body {
         'menu menu menu menu'
         'salle salle salle salle'
         'ft ft ft ft'
+        'ft ft ft ft'
 
     ;
     width: 100%;
@@ -182,7 +183,8 @@ footer{
     justify-content: center;
     align-items: center;
 }
-footer p{
+footer a{
+    text-decoration: none;
     color:white ;
     font-family: 'Montserrat Thin';
     font-size: 12px;
@@ -297,13 +299,15 @@ footer p{
         display: flex;
         flex-direction: column;
         width: 100%;
-        height: 100%;
+        height: auto;
     }
     footer{
         width: 100%;
-        height: 30px;
-    }
-    footer p{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
     }
 }

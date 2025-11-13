@@ -245,7 +245,8 @@ footer {
 
 }
 
-footer p {
+footer a {
+    text-decoration: none;
     font-family: 'Montserrat Thin';
     padding-top: 10px;
     width: 25%;

@@ -225,7 +225,8 @@ footer {
     flex-direction: row;
 }
 
-footer p {
+footer a {
+    text-decoration: none;
     width: 25%;
     color: white;
     font-size: 10px;
@@ -252,59 +253,7 @@ footer p {
     opacity: 1 !important;
     transform: translateX(0) !important;
 }
-/* @media (max-width:1080px){
 
-    
-
-.menu-item{
-    position: relative;
-    width: 25%;
-    text-align: center;
-}
-.sous-menu {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    flex-direction: column;
-    margin: 0;
-    padding: 0;
-    padding-left:2em;
-    z-index: 1200;
-    background-color: rgb(50, 68, 32);
-}
-
-.sous-menu li {
-    height: 100%;
-    list-style: none;
-    padding-top:1em;
-}
-
-.sous-menu li a {
-    display: block;
-    width: 93%;
-    height:10%;
-    padding: 10px;
-    transition: background 0.3s ease ;
-    font-family: 'Montserrat Thin';
-    font-size: 16px;
-    text-decoration: none;
-    color: white;
-}
-.sous-menu li a:hover{
-    color:white;
-    background-color: rgb(133, 181, 83);
-}
-.menu-item:hover .sous-menu{
-    display: flex;
-}
-Sous-menu affiché au clic sur mobile
-.sous-menu.visible {
-  display: flex;
-}
-
-} */
 
 @media (max-width: 768px) {
 .menu {
@@ -440,4 +389,5 @@ transition: transform 0.5s ease-in-out, color 0.5s ease in out;
     .texte2 {
         padding: 1.5em;
     }
+    
 }
