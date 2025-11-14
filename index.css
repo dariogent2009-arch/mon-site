@@ -349,6 +349,9 @@ h1:hover {
     height: auto;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:1em;
     background-color: rgb(30, 26, 26);
     animation: brillance2 ease-in-out 4s infinite alternate;
     animation-delay: 0.5s;
@@ -636,7 +639,9 @@ footer a {
     /* Section Contact */
     #Contact {
         height: auto;
-        padding: 2em 1em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     input,
@@ -658,18 +663,22 @@ footer a {
         justify-content: center;
         align-items: center;
         height: auto;
+        width: 100%;
+
 
     }
 
-    .faq p,
     .faq aside {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: 100%;
         text-align: left;
-        padding: 1em;
     }
 
     .faq p {
         font-size: 12px;
+       padding-left: 2em;
     }
 
     footer {
