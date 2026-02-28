@@ -1,3 +1,0 @@
-- [x] Fix submenu background-color overflow in mobile view for "Notre Salle" page CSS
-- [x] Fix submenu background-color overflow in mobile view for "Photo de la salle" page CSS
-- [x] Test the changes by running the site locally
